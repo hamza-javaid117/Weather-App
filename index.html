@@ -27,9 +27,74 @@
                 </div>
             </nav>
         </div>
-        <div class="content">
-            
+       <div class="dashboard-wrapper">
+    
+    <div class="header-section">
+        <div class="location-box">
+            <h1 id="city-name">London</h1>
+            <p id="local-time">22 April 2026 | 17:53</p>
         </div>
+        <div class="search-area">
+            <input type="text" id="city-input" placeholder="Search City...">
+            <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+    </div>
+
+    <div class="weather-grid">
+        
+        <div class="glass-card main-stats">
+            <span class="card-label">Current Condition</span>
+            <div class="temp-row">
+                <img id="main-icon" src="" alt="Weather">
+                <h2 id="main-temp">--°C</h2>
+            </div>
+            <p id="weather-desc">Partly Cloudy</p>
+            <div class="feels-like">
+                Real Feel: <span id="feels-val">--°C</span>
+            </div>
+        </div>
+
+        <div class="info-side">
+            <div class="glass-card mini-card">
+                <div class="icon-text">
+                    <p>Wind Speed</p>
+                    <h3 id="wind-val">-- km/h</h3>
+                </div>
+                <div class="icon-text">
+                    <p>Direction</p>
+                    <h3 id="wind-dir">--</h3>
+                </div>
+            </div>
+
+            <div class="glass-card mini-card">
+                <div class="icon-text">
+                    <p>Humidity</p>
+                    <h3 id="humidity-val">--%</h3>
+                </div>
+                <div class="icon-text">
+                    <p>UV Index</p>
+                    <h3 id="uv-val">--</h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="glass-card bottom-strip">
+        <div class="stat-item">
+            <p>Visibility</p>
+            <span id="vis-val">-- km</span>
+        </div>
+        <div class="stat-item">
+            <p>Pressure</p>
+            <span id="press-val">-- mb</span>
+        </div>
+        <div class="stat-item">
+            <p>Cloud Cover</p>
+            <span id="cloud-val">--%</span>
+        </div>
+    </div>
+</div>
     </div>
         </div>
     </div>
